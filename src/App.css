@@ -1,0 +1,58 @@
+.app {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.app__title {
+    font-size: 5rem;
+    color: #fff;
+    position: absolute;
+    top: 5rem;
+    text-align: center;
+    text-shadow: 1rem 1rem 1rem #000008;
+}
+
+.img__contain {
+    max-width: 700px;
+    position: relative;
+}
+
+.phraseRandom   {
+    width: 95%;
+    left: 0;
+    right: 0;
+    top: -0.5rem;
+    bottom: 0;
+    height: fit-content;
+    position: absolute;
+    margin: auto;
+    font-size: 2rem;
+    color:  #535353;
+    
+}
+
+.img__phrase {
+    width: 100%;
+}
+
+.app__btn {
+    padding: 0.7em 2em;
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+    background-color: #b3dafa;
+    font-weight: 500;
+    color: #535353;
+    border: 0.2em solid #fff;
+    transition: transform 100ms ease, filter 100ms ease;
+}
+
+.app__btn:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
